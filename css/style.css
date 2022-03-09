@@ -161,16 +161,12 @@ ul li a:hover{
 }
 /* drop down */
 /* lekhok */
-.lekhok{
-    position: relative;
-    display: inline-block;
-}
 .drop-down{
     background-color: white;
     width: 650px;
     height: 300px;
     position: absolute;
-    top: 50px;
+    top: 300px;
     left: 30px;
     display: flex;
     flex-direction: row;
@@ -194,16 +190,12 @@ ul li a:hover{
     height: 300px;
     padding: 10px;
     position: absolute;
-    top: 50px;
+    top: 300px;
     left: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
      visibility: hidden;
-}
-.bisoy{
-    position: relative;
-    display: inline-block;
 }
 .bisoy  ul{
     font-size: 10px;
@@ -214,17 +206,13 @@ ul li a:hover{
    visibility: visible;
 }
 /* prokashoni */
-.prokashoni{
-    position: relative;
-    display: inline-block;
-}
 .drop-dwon3{
     background-color: white;
     width: 800px;
     height: 300px;
     padding: 10px;
     position: absolute;
-    top: 50px;
+    top: 300px;
     left: 30px;
     display: flex;
     flex-direction: row;
@@ -241,11 +229,63 @@ ul li a:hover{
 }
 /* nav end */
 .container{
-    width: 95%;
+    width: 90%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 800px;
+    height:auto;
    
-    /* background-color: #0397d3 */
+}
+/* card-section1 */
+.card-section{
+    width: 100%;  background-color: aliceblue;
+    box-shadow: 0px 4px 6px -3px #9c9c9c;
+    margin: 50px 0px 50px 0px;
+    height: 490px;
+}
+.card-header{
+    font-size: 20px;
+    padding: 10px;
+}
+.cards{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.card1{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18%;
+    height: 370px;
+    
+}
+.card1-img{
+    width: 75%;
+    height: 230px;
+    padding-top: 5px;
+}
+.book-title{
+    font-size:12px ;
+    margin:6px 0px;
+    width: 100%;
+    text-align: center;
+}
+.writer{
+    font-size: 13px;
+    margin: 6px;
+}
+.reg-price{
+    color: #757070;
+    text-decoration: line-through;
+    text-decoration-color: rgb(241, 64, 64);
+    font-size: 19px;
+    margin: 5px;
+}
+.of-price{
+    font-size: 22px;
 }
